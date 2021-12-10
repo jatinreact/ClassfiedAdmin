@@ -1,0 +1,19 @@
+.background_icon_padding {
+  padding: 10px !important;
+  background-color: #3995ca !important;
+  color: aliceblue;
+  border-radius: 6px !important;
+  font-size: 17px !important;
+  outline: 0;
+  padding: 7px 12px !important;
+}
+
+.background_icon_delete {
+  padding: 10px !important;
+  background-color: #bb2d3b !important;
+  color: aliceblue;
+  border-radius: 6px !important;
+  font-size: 17px !important;
+  outline: 0;
+  padding: 7px 12px !important;
+}

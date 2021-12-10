@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.grid_formate {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.table_foramtitng {
+  width: 100%;
+  height: auto;
+}
+
+.table_foramtitng .MuiPaper-elevation1 {
+  box-shadow: none;
+}
+
+.button_formatting {
+  padding: 6px 19px;
+
+  border-radius: 7px;
+  color: #fff;
+}
+.status_manage {
+  cursor: pointer;
+}
+.content_padding {
+  padding-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.Component_main_grid {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.main_card {
+  background-color: #1184c7 !important;
+  padding: 37px 29px !important;
+  color: #fff !important;
+  border-radius: 21px !important;
+  margin: 12px !important;
+  cursor: pointer;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.Component_main_grid {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.Card_shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  border-radius: 16px !important;
+}
+.primary_categories {
+  color: #1184c7 !important;
+  cursor: pointer;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .table_foramtitng {
+    width: 100%;
+    overflow: scroll;
+    height: auto;
+  }
+}

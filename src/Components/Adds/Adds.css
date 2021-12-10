@@ -1,0 +1,6 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  .content_padding {
+    padding-top: 25% !important;
+  }
+}
